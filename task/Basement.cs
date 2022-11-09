@@ -1,7 +1,7 @@
 ﻿namespace task
 {
     // Фундамент.
-    internal class Basement : House, IPart
+    internal class Basement : IPart
     {
         public void Build()
         {

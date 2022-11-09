@@ -1,7 +1,7 @@
 namespace task
 {
     // Окно.
-    internal class Window : House, IPart
+    internal class Window : IPart
     {
         public void Build()
         {

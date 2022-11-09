@@ -28,13 +28,5 @@
         {
             return $"Имя: {name}\nВозраст: {age}";
         }
-
-        public Worker this[int index]
-        {
-            get
-            {
-                return this[index];
-            }
-        }
     }
 }

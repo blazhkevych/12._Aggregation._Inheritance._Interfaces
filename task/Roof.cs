@@ -1,7 +1,7 @@
 namespace task
 {
     // Крыша.
-    internal class Roof : House, IPart
+    internal class Roof : IPart
     {
         public void Build()
         {

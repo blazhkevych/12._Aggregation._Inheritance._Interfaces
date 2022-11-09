@@ -1,7 +1,7 @@
 namespace task
 {
     // Дверь.
-    internal class Door : House, IPart
+    internal class Door : IPart
     {
         public void Build()
         {

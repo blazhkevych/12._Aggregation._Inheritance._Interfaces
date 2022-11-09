@@ -2,7 +2,7 @@ namespace task
 {
 
     // Стены.
-    internal class Wall : House, IPart
+    internal class Wall : IPart
     {
         public void Build()
         {
